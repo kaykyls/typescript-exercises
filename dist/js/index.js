@@ -43,3 +43,13 @@ function sumNumbers(nums) {
     return nums.n1 + nums.n2;
 }
 console.log(sumNumbers({ n1: 1, n2: 2 }));
+//generics
+function showArrayItems(arr) {
+    arr.forEach((item, index) => {
+        console.log(`Item ${index + 1}: ${item}`);
+    });
+}
+const a1 = [1, 2, 3];
+const a2 = ["a", "b", "c"];
+showArrayItems(a1);
+showArrayItems(a2);
