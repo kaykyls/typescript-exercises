@@ -79,3 +79,33 @@ const a2 = ["a", "b", "c"]
 
 showArrayItems(a1)
 showArrayItems(a2)
+
+//classes
+class User {
+    name
+    role
+    isApproved
+
+    constructor(name: string, role: string, isApproved: boolean) {
+        this.name = name
+        this.role = role
+        this.isApproved = isApproved
+    }
+}
+
+const u1 = new User("João", "Admin", true)
+
+//decorators
+function baseParamters() {
+    //givei
+}
+
+class Person {
+    name
+
+    constructor(name: string) {
+        this.name = name
+    }
+}
+
+const p2 = new Person("João")

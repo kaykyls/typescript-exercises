@@ -53,3 +53,22 @@ const a1 = [1, 2, 3];
 const a2 = ["a", "b", "c"];
 showArrayItems(a1);
 showArrayItems(a2);
+//classes
+class User {
+    constructor(name, role, isApproved) {
+        this.name = name;
+        this.role = role;
+        this.isApproved = isApproved;
+    }
+}
+const u1 = new User("João", "Admin", true);
+//decorators
+function baseParamters() {
+    //givei
+}
+class Person {
+    constructor(name) {
+        this.name = name;
+    }
+}
+const p2 = new Person("João");
